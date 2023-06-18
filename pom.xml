@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>io.vdubovsky</groupId>
-    <artifactId>fx-excercise</artifactId>
+    <artifactId>fx-exercise</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>fx-excercise</name>
-    <description>fx-excercise</description>
+    <name>fx-exercise</name>
+    <description>fx-exercise</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>
