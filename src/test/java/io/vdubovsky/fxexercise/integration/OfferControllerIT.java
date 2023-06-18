@@ -1,6 +1,6 @@
 package io.vdubovsky.fxexercise.integration;
 
-import io.vdubovsky.fxexercise.FxExcerciseApplication;
+import io.vdubovsky.fxexercise.FxExerciseApplication;
 import io.vdubovsky.fxexercise.dto.OfferDto;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.RepeatedTest;
@@ -25,7 +25,7 @@ import java.util.concurrent.Executors;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @ExtendWith(SpringExtension.class)
-@SpringBootTest(classes = FxExcerciseApplication.class, webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
+@SpringBootTest(classes = FxExerciseApplication.class, webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class OfferControllerIT {
 
